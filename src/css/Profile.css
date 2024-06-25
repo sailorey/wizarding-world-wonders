@@ -1,0 +1,24 @@
+.profile {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1c1b29;
+  color: #e0e0e0;
+  border: 2px solid #4a4a68;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile h2 {
+  color: #ffda77;
+  text-shadow: 0 0 8px #ffda77;
+}
+
+.profile p {
+  margin-bottom: 15px;
+}
+
+.profile h3 {
+  margin: 15px 0;
+  color: #ffda77;
+  text-shadow: 0 0 8px #ffda77;
+}

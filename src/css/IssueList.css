@@ -1,0 +1,37 @@
+/* IssueList.css */
+.container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .issue-list {
+    margin: 20px;
+  }
+  
+  .issue-list h2 {
+    text-align: center;
+  }
+  
+  
+  h2 {
+    font-size: 28px;
+    color: #d4a373;
+  }
+  
+  .card {
+    background-color: #292b3e;
+    border: 1px solid #4a4c6b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #d4a373;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  

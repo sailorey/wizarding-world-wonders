@@ -1,0 +1,42 @@
+.container {
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+}
+
+.auth-form {
+  color: #e0e0e0;
+}
+
+h2 {
+  font-size: 28px;
+  color: #d4a373;
+}
+
+.input {
+  background-color: #1e1e2f;
+  border: 1px solid #4a4c6b;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin: 10px 0;
+  width: 100%;
+  color: #e0e0e0;
+}
+
+.button {
+  background-color: #d4a373;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #1e1e2f;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #bf8e58;
+}
+
+.error {
+  color: #f05353;
+}

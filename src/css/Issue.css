@@ -1,0 +1,104 @@
+.issue {
+  background-color: #1c1b29;
+  color: #e0e0e0;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #4a4a68;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.issue h3 {
+  margin: 0 0 10px;
+  color: #ffda77;
+  text-shadow: 0 0 5px #ffda77;
+}
+
+.issue p {
+  margin: 0 0 15px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.issue-edit-input,
+.issue-edit-textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #4a4a68;
+  background-color: #2b2a3b;
+  color: #e0e0e0;
+}
+
+.issue-edit-button {
+  padding: 8px 15px;
+  background-color: #4a4a68;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.issue-edit-button:hover {
+  background-color: #ffda77;
+  color: #1c1b29;
+}
+
+.issue-vote-button {
+  padding: 8px 15px;
+  background-color: #4a4a68;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.issue-vote-button:hover {
+  background-color: #ffda77;
+  color: #1c1b29;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.issue-comment-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #4a4a68;
+  background-color: #2b2a3b;
+  color: #e0e0e0;
+}
+
+.issue-comment-button {
+  padding: 8px 15px;
+  background-color: #4a4a68;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.issue-comment-button:hover {
+  background-color: #ffda77;
+  color: #1c1b29;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments h4 {
+  color: #ffda77;
+  text-shadow: 0 0 5px #ffda77;
+}

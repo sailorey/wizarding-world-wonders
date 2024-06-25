@@ -1,0 +1,65 @@
+/* App.css - Base Styles */
+body {
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    font-family: 'Cinzel', 'Raleway', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    color: #e0e0e0;
+  }
+  
+  .navbar, .footer {
+    background-color: #27293d;
+    color: #e0e0e0;
+  }
+  
+  .nav-link, .nav-link-active {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav-link-active {
+    font-weight: bold;
+    border-bottom: 2px solid #d4a373;
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .card {
+    background-color: #292b3e;
+    border: 1px solid #4a4c6b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .button {
+    background-color: #d4a373;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #1e1e2f;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #bf8e58;
+  }
+  
+  .input {
+    background-color: #1e1e2f;
+    border: 1px solid #4a4c6b;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 10px 0;
+    width: 100%;
+    color: #e0e0e0;
+  }
+  

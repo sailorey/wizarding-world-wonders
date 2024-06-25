@@ -1,0 +1,44 @@
+.comment-card {
+  background-color: #1c1b29;
+  color: #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #4a4a68;
+  border-radius: 5px;
+}
+
+.comment-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-edit-input {
+  padding: 8px;
+  border: 1px solid #4a4a68;
+  border-radius: 5px;
+  background-color: #2b2a3b;
+  color: #e0e0e0;
+}
+
+.comment-edit-button,
+.comment-delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a4a68;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 5px;
+}
+
+.comment-edit-button:hover,
+.comment-delete-button:hover {
+  background-color: #ffda77;
+  color: #1c1b29;
+}
+
+.comment-edit-button {
+  margin-right: 10px;
+}
